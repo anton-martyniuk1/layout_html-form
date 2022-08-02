@@ -20,35 +20,35 @@
         <label class="form-field">
           Surname:
           <input 
-          type="text" 
-          name="surname"
+            type="text" 
+            name="surname"
           >
         </label>
 
         <label class="form-field">
           Name:
           <input 
-          type="text" 
-          name="name"
+            type="text" 
+            name="name"
           >  
         </label>
 
         <label class="form-field">
-          How old are You?:
+          How old are You?
           <input 
-          type="number" 
-          name="age" 
-          min="1" 
-          max="100"
-          value="12"
+            type="number" 
+            name="age" 
+            min="1" 
+            max="100"
+            value="12"
           >  
         </label>
 
         <label class="form-field">
           Full date of birth:
           <input 
-          type="date" 
-          name="birth"
+            type="date" 
+            name="birth"
           >  
         </label>
 
@@ -60,24 +60,24 @@
 
       <!-- Registrarion -->
       <fieldset class="group">
-        <legend>Registrarion</legend>
+        <legend>Registration</legend>
 
         <label class="form-field">
           E-mail:
           <input 
-          type="email" 
-          name="email" 
-          placeholder="email@example.com" 
-          required
+            type="email" 
+            name="email" 
+            placeholder="email@example.com" 
+            required
           >
         </label>
 
         <label class="form-field">
           Password:
           <input 
-          type="password" 
-          name="password" 
-          required
+            type="password" 
+            name="password" 
+            required
           >
         </label>
       </fieldset>
@@ -86,22 +86,26 @@
       <fieldset class="group">
         <legend>An interesting fact about you!</legend>
 
-        <label class="form-field">
+        <div class="form-field">
           Do you love cats?
-          <input 
-          type="radio" 
-          name="cats" 
-          value="y"
-          >
-          - Yes
+          <label>
+            <input 
+              type="radio" 
+              name="cats" 
+              value="y"
+            >
+            Yes
+          </label>
 
-          <input 
-          type="radio" 
-          name="cats" 
-          value="n"
-          >
-          - No
-        </label>
+          <label>
+            <input 
+            type="radio" 
+            name="cats" 
+            value="n"
+            >
+            No
+          </label>
+        </div>
 
         <label class="form-field">
           What is your favorite color?
@@ -126,9 +130,9 @@
         <label class="form-field">
           How do you rate our works?
           <input 
-          type="range" 
-          name="rate" 
-          value="0"
+            type="range" 
+            name="rate" 
+            value="0"
           >
         </label>
       </fieldset>
@@ -140,10 +144,10 @@
         <label class="form-field">
           Comments:
           <textarea 
-          name="comments" 
-          cols="20" 
-          rows="2" 
-          autocomplete="off"
+            name="comments" 
+            cols="20" 
+            rows="2" 
+            autocomplete="off"
           >
           </textarea>
         </label>
